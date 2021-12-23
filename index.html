@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Survey form</title>
+</head>
+<body>
+    <form>
+          <fieldset>
+            <div>
+                <label class="required">Name</label> <br><br>
+                <input type="text" name="name" id="name" placeholder="Enter your name">
+                <input type="text" name="name" id="name" placeholder="Last name"><br><br>
+            </div>
+            <div>
+                <label class="required">Email</label>
+                <input type="email" name="email" id="email" placeholder="Enter your email"><br><br>
+            </div>
+            <div>
+                <label class="required">Your Experience</label><br><br>
+                <span style="font-size:150%;color:yellow;">&starf;</span>
+                <span style="font-size:150%;color:yellow;">&starf;</span>
+                <span style="font-size:150%;color:yellow;">&starf;</span>
+                <span style="font-size:150%;color:yellow;">&starf;</span>
+                <span style="font-size:150%;color:yellow;">&starf;</span><br>
+                <p>Overall,how would You rate you experience with us? </p>
+            </div>
+            
+            <div>
+                <p class="required"><b> How satisfied are you with</b></p>
+                <table class="satisfied">
+                    <thead><tr>
+                    <th></th>
+                    <th>Very Unsatisfied</th>    
+                    <th> Unsatisfied</th>   
+                    <th>Neutral</th>  
+                    <th>Satisfied</th>
+                    <th>Very Satisfied</th>
+                </tr></thead>
+                <tbody>
+                <tr class="purshase">
+                    <th>
+                        <label class="purshaseRadio" for="blankRadio1">
+                            Purchse
+                          </label></th>
+                            <td><input class="purchse1" type="radio" name="purshaseRadio" id="blankRadio1" value="option1" aria-label=" "></td>
+                            <td><input class="purchse1" type="radio" name="purshaseRadio" id="blankRadio1" value="option1" aria-label=" "></td>
+                            <td><input class="purchse1" type="radio" name="purshaseRadio" id="blankRadio1" value="option1" aria-label=" "></td>
+                            <td><input class="purchse1" type="radio" name="purshaseRadio" id="blankRadio1" value="option1" aria-label=" "></td>
+                            <td><input class="purchse1" type="radio" name="purshaseRadio" id="blankRadio1" value="option1" aria-label=" "></td>
+                            <br>
+                    
+                </tr>
+                <tr>
+                    <th>
+                        <label class="serviceRadio" for="blankRadio1">
+                            Service
+                           </label></th>
+                             <td><input class="Service1" type="radio" name="serviceRadio" id="blankRadio1" value="option1" aria-label=" "></td>
+                             <td><input class="Service1" type="radio" name="serviceRadio" id="blankRadio1" value="option1" aria-label=" "></td>
+                             <td><input class="Service1" type="radio" name="serviceRadio" id="blankRadio1" value="option1" aria-label=" "></td>
+                             <td><input class="Service1" type="radio" name="serviceRadio" id="blankRadio1" value="option1" aria-label=" "></td>
+                             <td><input class="Service1" type="radio" name="serviceRadio" id="blankRadio1" value="option1" aria-label=" "></td>
+                             <br>
+                    
+                </tr>
+                     <tr class="Overall">
+                         <th>
+                            <label class="overallRadio" for="blankRadio1">
+                                Company overall
+                               </label></th>
+                                <td><input class="Companyoverall1" type="radio" name="blankRadio" id="blankRadio1" value="option1" aria-label=" "></td>
+                                <td> <input class="Companyoverall1" type="radio" name="overallRadio" id="blankRadio1" value="option1" aria-label=" "></td>
+                                <td> <input class="Companyoverall1" type="radio" name="overallRadio" id="blankRadio1" value="option1" aria-label=" "></td>
+                                <td><input class="Companyoverall1" type="radio" name="overallRadio" id="blankRadio1" value="option1" aria-label=" "></td>
+                                <td> <input class="Companyoverall1" type="radio" name="overallRadio" id="blankRadio1" value="option1" aria-label=" "></td>
+                     </tr>
+                        </tbody>   
+                        </table>     
+                        <p class="required"><b>How likely are you to</b></p><br><br>
+                         <table class="likely">
+                            <thead><tr>
+                                <th></th>
+                                <th>Very Unlikely</th>
+                                <th> Unlikely</th>
+                                <th>Neutral</th>
+                                <th>likely</th> 
+                                <th>Very likely</th>
+                            </tr></thead>
+                            <tbody>
+                            <tr class="Buy">
+                                <th>
+                                    <label class="buyRadio" for="blankRadio1">
+                                        Buy from us again
+                                      </label></th>
+                                        <td><input class="buy1" type="radio" name="buyRadio" id="blankRadio1" value="option1" aria-label=" "></td>
+                                        <td><input class="buy1" type="radio" name="buyRadio" id="blankRadio1" value="option1" aria-label=" "></td>
+                                        <td><input class="buy1" type="radio" name="buyRadio" id="blankRadio1" value="option1" aria-label=" "></td>
+                                        <td><input class="buy1" type="radio" name="buyRadio" id="blankRadio1" value="option1" aria-label=" "></td>
+                                        <td><input class="buy1" type="radio" name="buyRadio" id="blankRadio1" value="option1" aria-label=" "></td>
+                                        <br>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <label class="productRadio" for="blankRadio1">
+                                        Recommend our product to others
+                                       </label></th>
+                                         <td><input class="product1" type="radio" name="productRadio" id="blankRadio1" value="option1" aria-label=" "></td>
+                                         <td><input class="product1" type="radio" name="productRadio" id="blankRadio1" value="option1" aria-label=" "></td>
+                                         <td><input class="product1" type="radio" name="productRadio" id="blankRadio1" value="option1" aria-label=" "></td>
+                                         <td><input class="product1" type="radio" name="productRadio" id="blankRadio1" value="option1" aria-label=" "></td>
+                                         <td><input class="product1" type="radio" name="productRadio" id="blankRadio1" value="option1" aria-label=" "></td>
+                                         <br>
+                                
+                            </tr>
+                                 <tr class="Company">
+                                     <th>
+                                        <label class="compnyRadio" for="blankRadio1">
+                                            Recommend our company to others
+                                           </label></th>
+                                            <td><input class="Company1" type="radio" name="compnyRadio" id="blankRadio1" value="option1" aria-label=" "></td>
+                                            <td> <input class="Company1" type="radio" name="compnyRadio" id="blankRadio1" value="option1" aria-label=" "></td>
+                                            <td> <input class="Company1" type="radio" name="compnyRadio" id="blankRadio1" value="option1" aria-label=" "></td>
+                                            <td><input class="Company1" type="radio" name="compnyRadio" id="blankRadio1" value="option1" aria-label=" "></td>
+                                            <td> <input class="Company1" type="radio" name="compnyRadio" id="blankRadio1" value="option1" aria-label=" "></td>
+                                 <br>
+                                        </tr>
+                                     
+                                    </tbody>        
+                            </table>
+                        </div><br>
+            <div>
+                <label>Additional comments or suggestions</label><br>
+                <textarea name="comments" id="comments" cols="70" rows="5"
+                placeholder="Enter your comment here..."></textarea>
+            </div> 
+        <button type="submit">Submit</button> <!--criando botao para enviar-->
+    </fieldset>
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,47 @@
+fieldset{
+    width: 600px; 
+    margin:  0px auto;
+    background-color: white;
+   
+}
+label{
+    text-align: left;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+   
+}
+p{
+    font-size: small;
+
+}
+.purshase{
+background-color: lightgray;
+}
+.Overall{
+    background-color: lightgray;
+}
+.Buy{
+    background-color: lightgray;
+}
+.Company{
+    background-color:lightgray;
+}
+.satisfied{
+    font-size: 15px;
+    font-style: italic;
+    padding: 0px;
+}
+td{
+    text-align: center;
+}
+th{
+    text-align: left;
+}
+.likely{
+    font-size: 15px;
+    font-style: italic;
+}
+.required:after {
+    content:" *";
+    color: red;
+  }
