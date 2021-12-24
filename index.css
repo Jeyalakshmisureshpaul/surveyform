@@ -1,5 +1,5 @@
 fieldset{
-    width: 600px; 
+    width: 550px; 
     margin:  0px auto;
     background-color: white;
    
@@ -12,6 +12,7 @@ font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 p{
     font-size: small;
+    margin:0;
 
 }
 .purshase{
@@ -29,7 +30,7 @@ background-color: lightgray;
 .satisfied{
     font-size: 15px;
     font-style: italic;
-    padding: 0px;
+
 }
 td{
     text-align: center;
@@ -37,11 +38,15 @@ td{
 th{
     text-align: left;
 }
-.likely{
-    font-size: 15px;
-    font-style: italic;
-}
+  
 .required:after {
     content:" *";
     color: red;
+  }
+  table{
+      font-size: 15px;
+    font-style: italic;
+  }
+  .radio{
+      line-height: 6px;
   }
